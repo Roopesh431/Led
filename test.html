@@ -1,0 +1,13 @@
+<label class="switch">
+  <input type="checkbox" id="postmen-switch" onchange="postmenSwitch()">
+  <span class="slider round"></span>
+</label>
+<script>
+  function postmenSwitch() {
+    if (document.getElementById("postmen-switch").checked) {
+      console.log("1");
+    } else {
+      console.log("0");
+    }
+  }
+</script>
